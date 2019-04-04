@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="owl_assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="owl_assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./animejs/node_modules/sal.js/dist/sal.css">
+    <link rel="stylesheet" href="stylebox.css">
+    <title>Service | Box</title>
+</head>
+<body>
+    <!-- Parent container -->
+    <div class="container-fluid parent-container p-0">
+        <!-- Top nav -->
+        <div class="res-nav">
+            <ul class="nav justify-content-start nav-line m-0 m-auto">
+                <li class="nav-item">
+                    <a class="nav-link white-font active" href="#">Support & FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white-font" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white-font" href="#">Support & FAQ</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link white-font" href="#"><span class="fa fa-phone"></span> somemail@gmail.com</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white-font" href="#"><span class="fa fa-phone"></span> +998(71)202-202-1</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /Top nav -->
+        
+         <!-- Child container -->
+        <div class="container child-container pt-4">
+            <!-- Small nav -->
+                <ul class="nav justify-content-start small-nav align-items-center p-0 m-0 m-auto">
+                    <li class="nav-item">
+                        <a class="nav-brand nav-font font-weight-bold" href="#"><img class="img-fluid pl-3 pr-3" src="images/logo.png" alt="service_icon">Service BOX</a>
+                    </li>
+                    <li class="nav-item  ml-auto">
+                        <a class="nav-link nav-font be-circled font-weight-bold" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-font be-circled font-weight-bold" href="#">Вид ремонтов</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link nav-font be-circled font-weight-bold" href="#">ЧАВО</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-font be-circled font-weight-bold" href="#">Контакты</a>
+                    </li>
+                </ul>
+            <!-- /Small nav -->
+
+            <!-- Cols -->
+                    <div class="row fixed-size m-0 m-auto py-4">
+                        <div id="rough-text" class="col-lg-6 pt-4"
+                            data-sal="slide-right"
+                            data-sal-duration="1200"
+                            data-sal-delay="100"
+                            data-sal-easing="ease-out-bounce"
+                        >
+                            <h1 class="display-4 h1-top font-weight-bold pt-4">
+                                Мы починим ваш смартфон
+                            </h1>
+                            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ex nihil est libero dolorem? Suscipit ipsa amet alias veritatis tempore a officia pariatur quis sed.</p>
+                            <a class="btn btn-primary align-items-center orange-btn" href="#">Почините мой телефон <span class="fa fa-angle-right"></span></a>
+                        </div>
+                        <div class="col-lg-6"
+                            data-sal="slide-left"
+                            data-sal-duration="1200"
+                            data-sal-delay="100"
+                            data-sal-easing="ease-out-bounce"
+                        >
+                           <div id="carousel-touple" class="carousel slide" data-ride="carousel">
+                               <div class="carousel-inner">
+                                   <!-- Phone Image -->
+                                   <div class="carousel-item active" onclick="myFunction(this)" data-content="0">
+                                        <img class="img-fluid offset-lg-2 broken-phone" src="images/iphone-screen-broken.png" alt="">
+                                        <div class="dot-dad">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт дисплея</div></div>
+                                        </div>
+                                        <div class="dot-dad dot-dad-two">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт кнопки</div></div>
+                                        </div>
+                                        <div class="dot-dad dot-dad-three">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт корпуса</div></div>
+                                        </div>
+                                        <div class="dot-dad dot-dad-four">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт камеры</div></div>
+                                        </div>
+                                   </div>
+                                   <!-- Laptop Image -->
+                                   <div id="broken-laptop" class="carousel-item" onclick="myFunction(this)" data-content="1">
+                                       <img style="width: 450px;" class="img-fluid laptop-broken offset-1 position-relative" src="images/laptop-broken.png" alt="">
+                                        <div class="dot-dad lap-dot">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт дисплея</div></div>
+                                        </div>
+                                        <div class="dot-dad lap-dot-two">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт платы</div></div>
+                                        </div>
+                                        <div class="dot-dad lap-dot-three">
+                                            <div class="prob-dot"> <div class="dot-text font-weight-bold">Ремонт корпуса</div></div>
+                                        </div>
+                                    </div>
+                               </div>
+                               <!-- Arrows -->
+                               <a class="carousel-control-prev" href="#carousel-touple" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+
+                              <a class="carousel-control-next" href="#carousel-touple" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                              <!-- /Arrows -->
+                           </div>
+                        </div>
+                        <span class="fas fa-angle-down mt-2 m-0 m-auto"></span>
+                    </div>
+            <!-- /Cols -->
+
+        </div>
+         <!-- /Child container -->
+
+        <!-- Child-conatainer-2  -->
+                <div class="container child-two-container">
+                    <div class="row h-100 d-flex justify-content-center align-items-center"
+                        data-sal="flip-up"
+                        data-sal-duration="1200"
+                        data-sal-delay="200"
+                        data-sal-easing="ease-out-bounce"
+                    >
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="images/NoPath.png" alt="">
+                        </div>
+                        <div class="col-lg-6 lg-d-flex flex-column align-items-start justify-content-between" style="height: 340px;">
+                            <h1 class="display-4 h1-second">Ремонт телефонов</h1>
+                            <p class="lead p-second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, doloribus earum corporis, dolor facilis odio rerum dignissimos velit quod, voluptatum eius assumenda laudantium? Optio, a.</p>
+                            <a class="btn btn-primary align-items-center orange-btn" href="">Почините мой телефон <span class="fa fa-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+        <!-- /Child-conatainer-2  -->
+       
+         <!-- Child-conatainer-3  -->
+         <div class="container-fluid  child-three-container pt-2">
+                <div class="container h-100 threes-child" style="display: grid;">
+                    <h2 class="text-center w-75 m-0 m-auto check-text font-weight-bold">Закажите ремонт на сайте и получите скидку <span style="color: #701511;">5%</span> от стоимости работ и запчастей!</h2>
+                   
+                    <div class="row mt-4">
+                        <div class="col-lg-5">
+                            <form>
+                                <input type="text" class="form-control control-form" placeholder="Ваше имя">
+                            </form>
+                        </div>
+                        <div class="col-lg-5">
+                                <form>
+                                <input type="tel" class="form-control control-form" placeholder="Ваш номер телефона">
+                            </form>
+                        </div>
+                        <div class="col-lg-2 text-center pl-0">
+                            <a href="#" class="btn btn-primary order-btn">Заказать</a>
+                        </div>
+                    </div>
+
+                        <form class="text-center">
+                            <input class="form-check-input" type="checkbox" value="" id="agreed">
+                            <label class="form-check-label" for="agreed">
+                                    Я согласен на обработку персональных данных в соответствии с <a href="#" style="color: #701511;">Политикой конфиденциальности</a>
+                            </label>
+                        </form>
+                        
+                 </div>
+            </div>
+         <!-- /Child-conatainer-3  -->
+        
+         <!-- Child container-4 -->
+
+            <div class="container child-four-container d-flex flex-column justify-content-around">
+                <h1 class="text-center display-4 font-weight-bold pt-4 pb-2 h1-our" style="color: #2e2f32;">Our services</h1>
+                <div class="row">
+
+                    <!-- LEFT CLOUDS COLUMN -->
+                    <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+                       <div class="row align-items-center"
+                                data-sal="slide-right"
+                                data-sal-duration="1000"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce"
+                       >
+                           <div class="col-9 comment bub">
+                               <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                           </div>
+                           <div class="col-3 text-right">
+                               <img src="images/water-drop.png" alt="">
+                           </div>
+                       </div>
+                       <div class="row align-items-center"
+                                data-sal="slide-right"
+                                data-sal-duration="1100"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce"
+                       >
+                           <div class="col-9 comment bub">
+                               <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                           </div>
+                           <div class="col-3 text-right">
+                                <img src="images/burnt.png" alt="">
+                           </div>
+                       </div>
+                       <div class="row align-items-center"
+                                data-sal="slide-right"
+                                data-sal-duration="1200"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce"
+                       >
+                           <div class="col-9 comment bub">
+                               <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                           </div>
+                           <div class="col-3 text-right">
+                                <img src="images/water-drop.png" alt="">
+                           </div>
+                       </div>
+                    </div>
+
+                    <!-- CENTRAL IMAGE -->
+                    <div class="col-4 text-center">
+                        <img class="central-img img-fluid" src="images/cen-phone.png" alt="central-image">
+                    </div>
+
+                    <!-- RIGHT CLOUDS COLUMN -->
+                    <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+                        <div class="row align-items-center"
+                                data-sal="slide-left"
+                                data-sal-duration="1000"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce">
+                            <div class="col-3">
+                                <img src="images/water-drop.png" alt="">
+                            </div>
+                            <div class="col-9 comment bubble">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center"
+                                data-sal="slide-left"
+                                data-sal-duration="1100"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce"
+                        >
+                            <div class="col-3">
+                                <img src="images/burnt.png" alt="">
+                            </div>
+                            <div class="col-9 comment bubble">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center"
+                                data-sal="slide-left"
+                                data-sal-duration="1200"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce"
+                        >
+                            <div class="col-3">
+                                <img src="images/water-drop.png" alt="">
+                            </div>
+                            <div class="col-9 comment bubble">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-6 pr-0"></div>
+                    <div class="col-4 pl-0">
+                         <div class="row align-items-center"
+                                data-sal="slide-left"
+                                data-sal-duration="1300"
+                                data-sal-delay="300"
+                                data-sal-easing="ease-out-bounce"
+                         >
+                            <div class="col-3">
+                                <img src="images/burnt.png" alt="">
+                            </div>
+                            <div class="col-9 comment bubble">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         <!-- /Child container-4 -->
+
+            <!-- Recalls -->
+
+                <div class="container-fluid recalls-container">
+                    <h2 class="display-4 text-center font-weight-bold" style="color: #2e2f32;">Отзывы</h2>
+                    <p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquam delectus laborum.</p>
+                    <div class="container owl-parent">
+                        <div class="owl-carousel owl-theme recall-owl">
+
+                            <div class="item recall-card">
+                                <h3 class="h3-name">James Mamarayimov</h3>
+                                <p class="recall">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit doloribus nihil amet molestias recusandae et tempora quae exercitationem? Optio, autem!</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        Качество :
+                                    </div>
+                                    <div class="col-6">
+                                        Скорость :
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item recall-card">
+                                <h3 class="h3-name">Anna Marie</h3>
+                                <p class="recall">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit doloribus nihil amet molestias recusandae et tempora quae exercitationem? Optio, autem!</p>
+                                <div class="row">
+                                        <div class="col-6">
+                                            Качество :
+                                        </div>
+                                        <div class="col-6">
+                                            Скорость :
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="item recall-card">
+                                <h3 class="h3-name">Bekzod Tulkinov</h3>
+                                <p class="recall">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit doloribus nihil amet molestias recusandae et tempora quae exercitationem? Optio, autem!</p>
+                                <div class="row">
+                                        <div class="col-6">
+                                            Качество :
+                                        </div>
+                                        <div class="col-6">
+                                            Скорость :
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="item recall-card">
+                                <h3 class="h3-name">Usmon Nosirov</h3>
+                                <p class="recall">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit doloribus nihil amet molestias recusandae et tempora quae exercitationem? Optio, autem!</p>
+                                <div class="row">
+                                        <div class="col-6">
+                                            Качество :
+                                        </div>
+                                        <div class="col-6">
+                                            Скорость :
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="selfmade-buttons d-flex justify-content-between m-0 m-auto">
+                            <div class="arrowz left-move">&#60;</div>
+                            <div class="arrowz right-move">&#62;</div>
+                        </div>
+                </div>
+
+            <!-- /Recalls -->
+
+            <!-- Wide sorts -->
+                <div class="container wide-sorts">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <h2 class="display-4 h2-wide">Широкий ассортимент 
+                                ремонтных услуг
+                            </h2>
+                            <p class="my-4 lead p-wide" style="width: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit animi dicta voluptate ipsa eius, cupiditate molestiae tempora voluptatum. Inventore!</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-right"
+                                        data-sal-duration="900"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Полная диагностика</p>
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-right"
+                                        data-sal-duration="1000"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Сохранение данных</p>
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-right"
+                                        data-sal-duration="1100"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Замена дисплея</p>
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-right"
+                                        data-sal-duration="1200"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Замена стекла (touch screen)</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-left"
+                                        data-sal-duration="900"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Замена датчика приближения</p>
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-left"
+                                        data-sal-duration="1000"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Ремонт кнопки Home</p>
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-left"
+                                        data-sal-duration="1100"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Замена корпуса в сборе</p>
+                                    <p class="mb-4 square-p"
+                                        data-sal="flip-left"
+                                        data-sal-duration="1200"
+                                        data-sal-delay="300"
+                                        data-sal-easing="ease-out-bounce"
+                                    ><span class="far fa-square mr-2"></span> Восстановление загрузчика</p>
+                                </div>
+                            </div>
+                            <p class="offset-lg-2 square-p">и любые другие виды смартфонов</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="img-fluid detailed-phone" src="images/Image_2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            <!-- Wide sorts -->
+
+            <!-- Is-ready -->
+                <div class="container-fluid is-ready">
+                    <div class="container is-ready-inner" style="display:grid;">
+                        <h1 class="text-center mb-3 font-weight-bold h1-ready" style="color: #2e2f32;">Готов ли ваш телефон?</h1>
+                        <p class="text-center lead mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque minus deleniti nemo culpa.</p>
+                        <div class="row mt-4">
+                            <div class="col-lg-5">
+                                <form>
+                                    <input type="text" class="form-control control-form" placeholder="Ваше имя">
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                    <form>
+                                    <input type="tel" class="form-control control-form" placeholder="Ваш номер телефона">
+                                </form>
+                            </div>
+                            <div class="col-lg-2 text-center pl-0">
+                                <a href="#" class="btn btn-primary order-btn">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- /Is-ready -->
+
+            <!-- Why us -->
+                <div class="container why-us">
+                    <h1 class="display-4 text-center font-weight-bold h1-why-us" style="color: #2e2f32;">Почему именно мы?</h1>
+                    <div class="tools d-flex justify-content-around h-100 align-items-center">
+                      <div class="tool font-weight-bold">
+                          Бесплатная диагностика
+                      </div>
+                      <div class="tool font-weight-bold">
+                          Опытные инженеры
+                      </div>
+                      <div class="tool font-weight-bold">
+                          Качественные запчасти
+                      </div>
+                      <div class="tool font-weight-bold">
+                          Гарантия работы 3 месяца
+                      </div>
+                      <div class="tool font-weight-bold">
+                          Любой вид оплаты
+                      </div>
+                    </div>
+                </div>
+            <!-- /Why us -->
+
+            <!-- Several stages -->
+                <div class="container-fluid sev-stages">
+                    <div class="container in-stages">
+                        <h1 class="text-center w-75 m-0 m-auto font-weight-bold h1-repair" style="color: #2e2f32;">Ремонт мобильной техники 
+                            состоит из нескольких этапов:</h1>
+                            <div class="tree">
+                                <span class="stick m-0 m-auto"></span>
+                                <span class="black-dotted top-most"></span>
+                                <span class="black-dotted top"></span>
+                                <span class="black-dotted bottom"></span>
+                                <span class="black-dotted bottom-most"></span>
+                            </div>
+
+                 <div class="leeves">
+                     <div class="row leaf-row">
+                    <!-- LEFT CLOUDS COLUMN -->
+                    <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col-9 left-cl-top comment bub">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-9 left-cl-bot comment bub">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                     </div>
+
+                      <!-- RIGHT CLOUDS COLUMN -->
+                    <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col-9 right-cl-top comment bubble">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-9 right-cl-bot comment bubble">
+                                <p class="cloud lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     </div>
+                 </div>
+                    </div>
+                </div>
+            <!-- /Several stages -->
+
+            <!-- About us -->
+                <div class="container-fluid aboutus d-flex align-items-center">
+                    <div class="container about-content">
+                        <div class="row">
+                            <div class="col-lg-6 text-center d-flex flex-column justify-content-between">
+                                <h1 class="display-3 h1-o-nas">О нас</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus fugiat obcaecati fuga rem repudiandae aliquid.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate totam eveniet?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem voluptatibus, vero eius nam non mollitia.</p>
+                               
+                                <h1 class="display-4 h1-about">About 1</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore mollitia earum vel alias.</p>
+                                  
+                                <h1 class="display-4 h1-about">About 2</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore mollitia earum vel alias.</p>
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column align-items-center">
+                                <img class="img-fluid big-boy" src="images/NoPath.png" alt="">
+                                <div class="row">
+                                    <div class="col-6 p-0">
+                                        <img class="img-fluid twins mt-2 mr-2" src="images/NoPath.png" alt="">
+                                    </div>
+                                    <div class="col-6 p-0">
+                                        <img class="img-fluid twins mt-2 ml-1" src="images/NoPath.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- About us -->
+
+            <!-- Brands -->
+                <div class="container-fluid brandy">
+                    <div class="container text-center h-100 d-flex flex-column justify-content-center">
+                        <div class="h1-and-p">
+                            <h1 class="font-weight-bold h1-repair">Ремонт телефонов</h1>
+                            <p class="font-weight-bold p-repair">Сеть сервисных центров «МТ Сервис» выполняет ремонт телефонов брендов</p>
+                        </div>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><img class="google" src="images/brand_logos/Google_2015_logo.svg" alt=""></div>
+                            <div class="item"><img class="apple-logo" src="images/brand_logos/Apple_logo_black.svg" alt=""></div>
+                            <div class="item"><img class="samsung" src="images/brand_logos/samsung-logo-vector.svg" alt=""></div>
+                            <div class="item"><img class="htc" src="images/brand_logos/htc.svg" alt=""></div>
+                            <div class="item"><img class="xiaomi" src="images/brand_logos/mi.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="entity-buttons d-flex justify-content-between m-0 m-auto">
+                            <div class="arrowz left-scroll">&#60;</div>
+                            <div class="arrowz right-scroll">&#62;</div>
+                        </div>
+                </div>
+            <!-- /Brands -->
+
+            <!-- Contact Info -->
+                <div class="conatainer-fluid contact-info">
+                    <div class="container">
+                        <h1 class="display-4 text-center font-weight-bold contact-text">Контактная информация</h1>
+                         <div class="row">
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="input-group hum-icon">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text fas fa-user" id="addon-wrapping"></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Имя" aria-label="Username">
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="input-group phone-icon">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text fa fa-phone call-phone" id="addon-wrapping"></span>
+                                            </div>
+                                            <input type="tel" class="form-control" placeholder="Телефон" aria-label="User_phone">
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="input-group mt-4 big-mail-icon">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text fa fa-envelope mail"></span>
+                                            </div>
+                                            <textarea class="form-control message-area" placeholder="Сообщение..." aria-label="With textarea"></textarea>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-6">
+                                        <div class="row m-0 m-auto">
+                                            <div class="col-4 pad-needed align-self-center">
+                                                <span class="fas fa-map-marker-alt info-icon" style="padding-left:23px; padding-right:23px;"></span>
+                                            </div>
+                                            <div class="col-8 font-weight-bold">
+                                                <p class="mb-0 p-head">Адрес</p>
+                                                <p class="p-opacity">Чиланзарский район,
+                                                    ул. Тинчлик, 2а, пр8
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="row m-0 m-auto">
+                                            <div class="col-4 pad-needed align-self-center">
+                                                <span class="fa fa-phone info-icon"></span>
+                                            </div>
+                                            <div class="col-8 font-weight-bold">
+                                                <p class="mb-0 p-head">Телефон</p>
+                                                <p class="p-opacity">+998 (71) 202-202-1
+                                                    <br>
+                                                    +998 (71) 200-541-6
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 text-center">
+                                <div class="map">
+                                    <img class="img-fluid map-img" src="images/map.png" alt="map-of-city">
+                                </div>
+                                <button class="btn btn-primary btn-lg w-100 submit-button align-self-center p-0"><img class="mail-icon" src="images/mail-icon.png" alt="">Отправить</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+
+            <!-- /Contact Info -->
+
+            <!-- FAQ -->
+                <div class="container-fluid curl-back"></div>
+
+                        <div class="container inner-curl">
+                             <h1 class="text-center font-weight-bold h1-faq-main">Часто задаваемые вопросы</h1>
+                             <img class="img-fluid rot-phone" src="images/rot-phone.png" alt="">
+                                <div class="row curl-back-row">
+
+                                    <div class="col-6">
+                                        <h1 class="h1-faq font-weight-bold">Готов ли ваш телефон</h1>
+                                        <p class="p-faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, atque pariatur ut ducimus quasi sit temporibus cupiditate nisi tempora expedita ipsa!</p>
+                                        
+                                        <h1 class="h1-faq font-weight-bold">Готов ли ваш телефон</h1>
+                                        <p class="p-faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, atque pariatur ut ducimus quasi sit temporibus cupiditate nisi tempora expedita ipsa!</p>
+                                    
+                                        <h1 class="h1-faq font-weight-bold">Готов ли ваш телефон</h1>
+                                        <p class="p-faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, atque pariatur ut ducimus quasi sit temporibus cupiditate nisi tempora expedita ipsa!</p>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <h1 class="h1-faq font-weight-bold">Готов ли ваш телефон</h1>
+                                        <p class="p-faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, atque pariatur ut ducimus quasi sit temporibus cupiditate nisi tempora expedita ipsa!</p>
+                                        
+                                        <h1 class="h1-faq font-weight-bold">Готов ли ваш телефон</h1>
+                                        <p class="p-faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, atque pariatur ut ducimus quasi sit temporibus cupiditate nisi tempora expedita ipsa!</p>
+                                    
+                                        <h1 class="h1-faq font-weight-bold">Готов ли ваш телефон</h1>
+                                        <p class="p-faq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis, atque pariatur ut ducimus quasi sit temporibus cupiditate nisi tempora expedita ipsa!</p>
+                                  
+                                    </div>
+                                </div>
+                        </div>
+            <!-- /FAQ -->
+
+        <!-- FOOTER -->
+                <div class="container-fluid footer">
+                    <div class="container footer-inside text-center">
+                        <div class="row h-100">
+                            <div class="col-lg-6 d-flex flex-column align-items-start justify-content-center">
+                                <a href="#"><img style="width: 287px;" class="img-fluid color-white" src="images/whitel.svg" alt=""></a>
+                                <p class="footer-p footer-logo-text mt-3 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a quisquam, rem quod enim, dolore repellat maxime adipisci, saepe earum esse dolor! Nisi, blanditiis facilis.</p>
+                            </div>
+                            <div class="col-lg-6 col-six align-self-center d-flex flex-column align-items-center justify-content-between ">
+                                <p class="footer-p infooter-call"><i class="fa fa-phone"></i> +998 (71) 202-202-1</p>
+                                <p class="footer-p">Наш оператор ответит на вопросы</p>
+                                <div class="iconz">
+                                    <span class="fab tel-ins fa-telegram-plane footer-icon"></span>
+                                    <span class="fab yut fa-youtube footer-icon"></span>
+                                    <span class="fab tel-ins fa-instagram footer-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+        <!-- /FOOTER -->
+        
+    </div><!-- /Parent container -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="owl_assets/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./animejs/node_modules/sal.js/dist/sal.js"></script>
+<script src="service.js"></script>
+</body>
+</html>
